@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-	<title>Foro-bunny</title>
+	<title>Foro-Bunny</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,21 +10,47 @@
 	<script src="https://use.fontawesome.com/b432f04897.js"></script>
 	<!-- Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
-	<!-- CDN Bootstrap -->
+	<!-- CDN materialize -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
 	
 	<!-- main.css -->
-	<link href="assets/css/main.css" rel="stylesheet">
-	
-	
+	<link href="assets/css/main.css" rel="stylesheet">	
 </head>
 <body>
-<!--Navbar -->
-<!--Services -->
-<!--Portafolio -->
-<!--About -->
-<!--Team -->
-<!--Contacto -->
-
+	<header class="container">
+		<div class="row">
+			<div class="col offset-s2 s8">
+				<h1>Foro sobre Conejitos</h1>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col offset-s2 s8">
+				<form action="">
+					<label> Nombre:</label>
+					<input type="text" id="nombre" >
+					<label> Mensaje:</label>
+					<textarea id="mensaje" ></textarea> 
+					<button>Enviar</button>
+				</form>
+			</div>
+		</div>
+	</header>
+    <section class="container">
+    	<div class="col offset-s3 s6">
+    		<div id="comentarios">
+    			
+    		</div>
+    	</div>
+    </section>
+<!--CDN jQuery -->
+<script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
+  <!--CDN materialize js -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js">
+ 
+  <!--js -->
 <script src="assets/js/main.js"></script>
 </body>
 </html>
